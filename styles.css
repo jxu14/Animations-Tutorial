@@ -1,0 +1,45 @@
+div {
+  height: 100px;
+  width: 100px;
+}
+
+
+.box1{
+  background-color: red;
+  transition: background-color 2s ,width 1s ease;
+  margin: 10px;
+}
+
+
+.wide {
+  background-color: orange;
+  width: 300px;
+}
+
+#menu {
+  height: 400px;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  top: 10px;
+  z-index: 1;
+}
+
+#close {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#close p {
+  font-family: helvetica;
+  font-size: 30px;
+  color: white;
+}
